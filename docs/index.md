@@ -4,6 +4,7 @@ Random Neural Network Simulator implemented in Python.
 
 [![PyPI Version](https://img.shields.io/pypi/v/rnnsim.svg)](https://pypi.org/project/rnnsim)
 [![PyPI License](https://img.shields.io/pypi/l/rnnsim.svg)](https://pypi.org/project/rnnsim)
+[![DOI](https://zenodo.org/badge/208328629.svg)](https://zenodo.org/badge/latestdoi/208328629)
 
 # Setup
 
