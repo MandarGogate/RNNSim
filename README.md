@@ -61,13 +61,14 @@ model.fit(epochs=N_Iterations, train_data=(X, Y))
 If you use code in your projects please cite
 
 ```
-@misc{mg_2019_3407836,
+@misc{mandar_gogate_2019_3407836,
   author       = {Mandar Gogate},
-  title        = {MandarGogate/RNNSim: RNNSim v0.1},
+  title        = {RNNSim: RANDOM NEURAL NETWORK SIMULATOR},
   month        = Sep,
   year         = 2019,
   doi          = {10.5281/zenodo.3407836},
   url          = {https://doi.org/10.5281/zenodo.3407836}
+}
 ```
 
 References
