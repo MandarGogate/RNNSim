@@ -1,0 +1,78 @@
+[tool.poetry]
+
+name = "rnnsim"
+version = "0.1"
+description = "Random Neural Network Simulator implemented in Python."
+
+license = "MIT"
+
+authors = ["Mandar Gogate <contact@mandargogate.com>"]
+
+readme = "README.md"
+
+homepage = "https://pypi.org/project/rnnsim"
+documentation = "https://rnnsim.readthedocs.io"
+repository = "https://github.com/MandarGogate/RNNSim"
+
+keywords = [
+]
+classifiers = [
+    # TODO: update this list to match your application: https://pypi.org/pypi?%3Aaction=list_classifiers
+    "Development Status :: 1 - Planning",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.6",
+]
+
+[tool.poetry.dependencies]
+
+python = "^3.6"
+numpy = "^1.16.1"
+
+[tool.poetry.dev-dependencies]
+
+# Formatters
+black = "=19.3b0"
+isort = "=4.3.4"
+
+# Linters
+mypy = "*"
+pydocstyle = "*"
+pylint = "^2.0"
+
+# Testing
+pytest = "^5.0"
+pytest-cov = "*"
+pytest-describe = "*"
+pytest-expecter = "*"
+pytest-random = "*"
+freezegun = "*"
+
+# Reports
+coveragespace = "*"
+
+# Documentation
+mkdocs = "^1.0"
+pygments = "*"
+
+# Tooling
+pyinstaller = "*"
+sniffer = "*"
+MacFSEvents = { version = "*", platform = "darwin" }
+pync = { version = "*", platform = "darwin" }
+
+[tool.poetry.scripts]
+
+rnnsim = "rnnsim.cli:main"
+
+[tool.black]
+
+target-version = ["py36"]
+skip-string-normalization = true
+
+[build-system]
+
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
